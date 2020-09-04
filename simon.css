@@ -1,0 +1,81 @@
+
+* {
+    font-family: 'Muli', sans-serif;
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+    background-image: url('../assets/landscape.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+    align-items: center;
+}
+
+.color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+.blue {
+    background: blue;
+}
+.blue.light {
+    background: lightblue;
+}
+.red {
+    background: red;
+}
+.red.light {
+    background: pink;
+}
+.orange {
+    background: orange;
+}
+.orange.light {
+    background: lightsalmon;
+}
+.green {
+    background: #6ab04c;
+}
+.green.light {
+    background: lightgreen;
+}
+.btn-start {
+    width: 400px;
+    height: 100px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 200px);
+}
+.hide {
+    display: none;
+}
+
